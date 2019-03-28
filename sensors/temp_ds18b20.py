@@ -1,7 +1,9 @@
+#!/usr/bin/env python2
+
 #########################################
 #    Configurations
 sensor_serial = '28-02199245b4f5' # serial number of DS18B20
-time_interval = 1 # time interval between temprature readings in seconds
+#time_interval = 1 # time interval between temprature readings in seconds
 
 #########################################
 
@@ -33,9 +35,9 @@ def read_temp():
         temp_c = float(temp_string) / 1000.0
         return str(temp_c)
 
-while True:
-    print(str(time.time())+" "+read_temp()+' centigrade')
-    time.sleep(time_interval)
+#while True:
+print(str(time.time())+" - DS18b20 - "+read_temp()+' C')
+#time.sleep(time_interval)
 
 
 
