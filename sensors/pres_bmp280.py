@@ -235,8 +235,8 @@ def main():
 		bmp.reg_check()
 
 		temperature, pressure = bmp.read()
-		print str(time.time())+" - BMP280 -",
-		print "temp %2.2f C -" % temperature,
+		print str(time.time())+" , BMP280 ,",
+		print "temp %2.2f C ," % temperature,
 		print "pres %5.4f mbar" % pressure
 	else:
 		print("Error")

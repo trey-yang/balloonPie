@@ -124,7 +124,7 @@ def main():
 		result = read_dht11_dat()
 #	if result:
 	humidity, temperature = result
-	print str(time.time())+" - DHT11 - humidity %s%% - temp %s C" % (humidity, temperature)
+	print str(time.time())+" , DHT11 , humidity %s%% , temp %s C" % (humidity, temperature)
 #	time.sleep(1)
 	destroy()
 

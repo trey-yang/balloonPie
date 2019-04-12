@@ -36,7 +36,7 @@ def read_temp():
         return str(temp_c)
 
 #while True:
-print(str(time.time())+" - DS18b20 - "+read_temp()+' C')
+print(str(time.time())+" , DS18b20 , "+read_temp()+' C')
 #time.sleep(time_interval)
 
 

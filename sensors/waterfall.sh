@@ -1,5 +1,5 @@
 while :
   do
-  ./take_readings.sh; ./show_readings.sh
-  sleep 1
+  /home/pi/dev/balloonPie/sensors/take_readings.sh; /home/pi/dev/balloonPie/sensors/show_readings.sh
+  sleep 5
 done
